@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Math Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <video autoplay muted loop class="video-background">
+        <source src="assets/4K Space Starfield Background.mp4" type="video/mp4">
+    </video>
+    <div class="game-container">
+        <h1>Math Game</h1>
+        <div class="game-info">
+            <div class="problem-container">
+                <div class="problem-label">Question:</div>
+                <div id="problem">0 + 0</div>
+            </div>
+            <div class="score-container">
+                <div class="score-label">Score:</div>
+                <div id="score">0</div>
+            </div>
+        </div>
+
+        <div class="cards-container">
+            <div class="card" onclick="flipCard(this)">
+                <div class="card-inner">
+                    <div class="card-front"></div>
+                    <div class="card-back"></div>
+                </div>
+            </div>
+            <div class="card" onclick="flipCard(this)">
+                <div class="card-inner">
+                    <div class="card-front"></div>
+                    <div class="card-back"></div>
+                </div>
+            </div>
+            <div class="card" onclick="flipCard(this)">
+                <div class="card-inner">
+                    <div class="card-front"></div>
+                    <div class="card-back"></div>
+                </div>
+            </div>
+            <div class="card" onclick="flipCard(this)">
+                <div class="card-inner">
+                    <div class="card-front"></div>
+                    <div class="card-back"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="twinkle" style="top: 20%; left: 30%;"></div>
+    <div class="twinkle" style="top: 50%; left: 70%;"></div>
+    <div class="twinkle" style="top: 70%; left: 20%;"></div>
+    <div class="twinkle" style="top: 30%; left: 80%;"></div>
+    <div class="twinkle" style="top: 80%; left: 40%;"></div>
+   <script src="main.js"></script>
+</body>
+</html>
